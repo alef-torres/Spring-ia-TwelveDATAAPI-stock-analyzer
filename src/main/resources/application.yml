@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-ai-alef-tool-calling
+  ai:
+    openai:
+      api-key: ${CHAVE_TESTE}
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_ai_tool_calling_alef
+    username: root
+    password: 12345
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+    show-sql: false
